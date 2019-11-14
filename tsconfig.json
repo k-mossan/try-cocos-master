@@ -3,7 +3,7 @@
     "module": "commonjs",
     "lib": [ "dom", "es5", "es2015.promise" ],
     "target": "es5",
-    "allowJs": true,
+    "allowJs": false,
     "experimentalDecorators": true,
     "skipLibCheck": true
   },
