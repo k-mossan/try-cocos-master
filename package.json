@@ -23,14 +23,14 @@
     "typescript": "^3.7.2"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "npm run lint:fix",
+    "*.ts": [
+      "eslint --fix assets/Script/**/*.ts",
       "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:fix"
+      "pre-commit": "lint-staged"
     }
   }
 }
