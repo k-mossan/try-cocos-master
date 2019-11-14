@@ -13,6 +13,5 @@ export default class Helloworld extends cc.Component {
     this.label.string = this.text;
     const test = 0;
     cc.log(test);
-    {a = b*};;
   }
 }
