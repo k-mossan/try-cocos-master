@@ -24,7 +24,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint --fix assets/Script/**/*.ts",
+      "eslint --fix",
       "git add"
     ]
   },
